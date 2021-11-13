@@ -274,8 +274,8 @@ const bool = ref(false);
 
 <template>
   <VlSwitch v-model:toggleValue="bool" disabled/>
-  <VlSwitch v-model:toggleValue="bool" disabled="true"/>
-</template>`,t.__sourceCodeTitle="\u652F\u6301 \u7981\u7528"}const X6={name:"Switch2Demo",__sourceCode:"",__sourceCodeTitle:""};function K6(t){const e=k(!1);return(o,a)=>(c(),_(x,null,[l(U,{toggleValue:e.value,"onUpdate:toggleValue":a[0]||(a[0]=s=>e.value=s),disabled:""},null,8,["toggleValue"]),l(U,{toggleValue:e.value,"onUpdate:toggleValue":a[1]||(a[1]=s=>e.value=s),disabled:"true"},null,8,["toggleValue"])],64))}const L1=f(h(p({},X6),{setup:K6}));typeof w1=="function"&&w1(L1);function S1(t){t.__sourceCode=`<script setup lang="ts">
+  <VlSwitch v-model:toggleValue="bool" :disabled="true"/>
+</template>`,t.__sourceCodeTitle="\u652F\u6301 \u7981\u7528"}const X6={name:"Switch2Demo",__sourceCode:"",__sourceCodeTitle:""};function K6(t){const e=k(!1);return(o,a)=>(c(),_(x,null,[l(U,{toggleValue:e.value,"onUpdate:toggleValue":a[0]||(a[0]=s=>e.value=s),disabled:""},null,8,["toggleValue"]),l(U,{toggleValue:e.value,"onUpdate:toggleValue":a[1]||(a[1]=s=>e.value=s),disabled:!0},null,8,["toggleValue"])],64))}const L1=f(h(p({},X6),{setup:K6}));typeof w1=="function"&&w1(L1);function S1(t){t.__sourceCode=`<script setup lang="ts">
 import VlSwitch from '@/lib/VlSwitch.vue';
 import {ref} from 'vue';
 
