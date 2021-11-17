@@ -389,16 +389,16 @@ import VlCollapseItem from '@/lib/VlCollapseItem.vue';
 const selectedTitleList = ['\u6807\u98981', '\u6807\u98983'];
 <\/script>`,t.__sourceCodeTitle="\u8BBE\u7F6E\u9ED8\u8BA4\u6253\u5F00\u9879"}const we=u("\u5185\u5BB91"),Le=u("\u5185\u5BB92"),Me=u("\u5185\u5BB93"),Se={name:"Collapse2Demo",__sourceCode:"",__sourceCodeTitle:""};function Ne(t){const e=["\u6807\u98981","\u6807\u98983"];return(n,o)=>(c(),E(J,{selectedArray:e,"onUpdate:selectedArray":o[0]||(o[0]=s=>e=s)},{default:a(()=>[l(T,{title:"\u6807\u98981"},{default:a(()=>[we]),_:1}),l(T,{title:"\u6807\u98982"},{default:a(()=>[Le]),_:1}),l(T,{title:"\u6807\u98983"},{default:a(()=>[Me]),_:1})]),_:1}))}const t2=f(h(p({},Se),{setup:Ne}));typeof Y1=="function"&&Y1(t2);function e2(t){t.__sourceCode=`<template>
   <VlCollapse>
-    <VlCollapseItem title="\u6807\u98981" isDisabled>\u5185\u5BB91</VlCollapseItem>
-    <VlCollapseItem title="\u6807\u98982">\u5185\u5BB92</VlCollapseItem>
-    <VlCollapseItem title="\u6807\u98983" isDisabled>\u5185\u5BB93</VlCollapseItem>
+    <VlCollapseItem title="\u6807\u98981" isDisabled="true">\u5185\u5BB91</VlCollapseItem>
+    <VlCollapseItem title="\u6807\u98982" isDisabled>\u5185\u5BB92</VlCollapseItem>
+    <VlCollapseItem title="\u6807\u98983" isDisabled="true">\u5185\u5BB93</VlCollapseItem>
   </VlCollapse>
 </template>
 
 <script lang="ts" setup>
 import VlCollapse from '@/lib/VlCollapse.vue';
 import VlCollapseItem from '@/lib/VlCollapseItem.vue';
-<\/script>`,t.__sourceCodeTitle="\u7981\u7528\u9879"}const He=u("\u5185\u5BB91"),Oe=u("\u5185\u5BB92"),Ue=u("\u5185\u5BB93"),Pe={name:"Collapse3Demo",__sourceCode:"",__sourceCodeTitle:""};function je(t){return(e,n)=>(c(),E(J,null,{default:a(()=>[l(T,{title:"\u6807\u98981",isDisabled:""},{default:a(()=>[He]),_:1}),l(T,{title:"\u6807\u98982"},{default:a(()=>[Oe]),_:1}),l(T,{title:"\u6807\u98983",isDisabled:""},{default:a(()=>[Ue]),_:1})]),_:1}))}const l2=f(h(p({},Pe),{setup:je}));typeof e2=="function"&&e2(l2);function n2(t){t.__sourceCode=`<template>
+<\/script>`,t.__sourceCodeTitle="\u7981\u7528\u9879"}const He=u("\u5185\u5BB91"),Oe=u("\u5185\u5BB92"),Ue=u("\u5185\u5BB93"),Pe={name:"Collapse3Demo",__sourceCode:"",__sourceCodeTitle:""};function je(t){return(e,n)=>(c(),E(J,null,{default:a(()=>[l(T,{title:"\u6807\u98981",isDisabled:"true"},{default:a(()=>[He]),_:1}),l(T,{title:"\u6807\u98982",isDisabled:""},{default:a(()=>[Oe]),_:1}),l(T,{title:"\u6807\u98983",isDisabled:"true"},{default:a(()=>[Ue]),_:1})]),_:1}))}const l2=f(h(p({},Pe),{setup:je}));typeof e2=="function"&&e2(l2);function n2(t){t.__sourceCode=`<template>
   <VlCollapse :onlyShowSingle="true">
     <VlCollapseItem title="\u6807\u98981">\u5185\u5BB91</VlCollapseItem>
     <VlCollapseItem title="\u6807\u98982">\u5185\u5BB92</VlCollapseItem>
